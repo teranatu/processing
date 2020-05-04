@@ -6,6 +6,6 @@ if (80 <= point) {
   println("Bです");
 } else if (point < 70 && 60 <= point) {
   println("Cです");
-} else if (point < 60 ) {
+} else {
   println("Dです");
 }
