@@ -8,4 +8,4 @@ for(int i=0; i<n; i++) {
     sum += n;
   }
 }
-println(sum);
+println("10から1までの引き算は、" + sum +"です。");
