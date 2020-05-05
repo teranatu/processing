@@ -21,6 +21,7 @@ void draw() {
     ellipse(xy*n + xy*i, 0, xy, xy);
   }
   
+  //白と黒の小さい円を交互に描画
   int xyMini = 20;//円の直径
   
   for(int i=0; i<n*2; i++) {
