@@ -10,17 +10,20 @@ void setup() {
 void draw() {
   if(mousePressed == true) {
     if(mouseButton == LEFT) {
+      println("left");
       leftX = mouseX; 
       leftY = mouseY; 
     }
     
     if(mouseButton == RIGHT) {
+      println("left");
       rightX = mouseX;
       rightY = mouseY;
     }
     
     if(leftX != -1 && leftY != -1
     && rightX != -1 && rightY != -1) {
+      rectMode(CORNERS);
       rect(leftX, leftY, rightX, rightY);
     }
   }
