@@ -1,6 +1,7 @@
 //active化
 //voidは返り値なしの関数
-//
+//setup()は一回読み込まれる(初期化)
+//void drawは１秒間に60か描画される。
 void setup() {//約数をカウントする関数を呼び出し返り値を出力する。
   println(getNumberOfDivisor(85));
 }
