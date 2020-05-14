@@ -1,4 +1,6 @@
 //active化
+//voidは返り値なしの関数
+//
 void setup() {//約数をカウントする関数を呼び出し返り値を出力する。
   println(getNumberOfDivisor(85));
 }
